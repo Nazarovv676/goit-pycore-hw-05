@@ -11,9 +11,17 @@
             "program": "${workspaceFolder}/task3.py", // Path to your script
             "console": "integratedTerminal",
             "args": [
-                "logs.txt",  // First argument: log file
-                "ERROR"      // Second argument: log level
+                "logs.txt", // First argument: log file
+                "ERROR" // Second argument: log level
             ]
+        },
+        {
+            "name": "task4",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/task4/main.py", // Path to your script
+            "console": "integratedTerminal",
+            "args": []
         }
     ]
 }
